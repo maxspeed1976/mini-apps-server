@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token = '6952267098:AAF3zaBS1clL9KWKdTdHrxEetfsc4sU6Krc';
+const token = '';
 const bot = new TelegramBot(token, {polling: true});
 const webAppUrl ='https://keen-gumdrop-b66a38.netlify.app/'
 
